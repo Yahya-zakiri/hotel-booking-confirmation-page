@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+
+@theme {
+    --color-sun-500: hsl(42, 83%, 58%);
+    --color-sun-300: hsl(44, 84%, 75%);
+    --color-sun-200: hsl(45, 100%, 74%);
+    --color-sun-50: hsl(41, 100%, 93%);
+    --color-terracotta-700: hsl(15, 69%, 37%);
+    --color-terracotta-600: hsl(15, 74%, 41%);
+    --color-terracotta-500: hsl(18, 62%, 47%);
+    --color-terracotta-400: hsl(22, 72%, 56%);
+}
