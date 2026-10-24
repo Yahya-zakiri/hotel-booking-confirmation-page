@@ -1,6 +1,29 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "dm-mono-medium";
+    src: url('../public/fonts/dm-mono/DMMono-Medium.ttf') format('ttf');
+}
 
+@font-face {
+    font-family: "dm-mono-reqular";
+    src: url('../public/fonts/dm-mono/DMMono-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "dm-sans";
+    src: url("../public/fonts/dm-sans/DMSans-VariableFont_opsz,wght.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: "fraunces1";
+    src: url('../public/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf');
+}
+
+@font-face {
+    font-family: "fraunces2";
+    src: url("../public/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
+}
 
 @theme {
     --color-sun-500: hsl(42, 83%, 58%);
@@ -11,4 +34,9 @@
     --color-terracotta-600: hsl(15, 74%, 41%);
     --color-terracotta-500: hsl(18, 62%, 47%);
     --color-terracotta-400: hsl(22, 72%, 56%);
+    --font-dm-mono-medium: "dm-mono-medium", sans-serif;
+    --font-dm-mono-reqular: "dm-mono-reqular", sans-serif;
+    --font-dm-sans: "dm-sans", sans-serif;
+    --font-fraunces1: "fraunces1", sans-serif;
+    --font-fraunces2: "fraunces2", sans-serif;
 }
